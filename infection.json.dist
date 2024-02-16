@@ -1,0 +1,17 @@
+{
+  "timeout": 30,
+  "source": {
+    "directories": [
+      "src/",
+    ],
+  },
+  "testFramework": "pest",
+  "mutators": {
+    "@default": true,
+  },
+  "logs": {
+    "text": "build\/infection.log.txt",
+    "debug": "build\/infection.debug.txt",
+    "summary": "build\/infection.summary.txt"
+  }
+}
