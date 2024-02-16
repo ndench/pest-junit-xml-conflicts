@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "infection/infection": "^0.27.9",
-        "pestphp/pest": "^2.33"
+        "pestphp/pest": "^2"
     },
     "config": {
         "allow-plugins": {
